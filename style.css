@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spline Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height: 950px;
+    background-color:#1d2026;
+}
+nav{
+    display: flex;
+    padding-top: 20px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 200px;
+    margin: 1px;
+    
+}
+nav ul li{
+    margin: 23px 40px;
+    color:#1d2026 ;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    width: 190px;
+    margin: 2px 40px;
+}
+.content{
+    color: white;
+    position: absolute;
+    right: 400px;
+    top: 320px;
+   
+}
+.content h3{
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+.content p{
+    line-height: 20px;
+    padding-bottom: 35px;
+    line-height: 27px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    padding:15px 33px;
+    background: rgb(37, 153, 86);
+    border-radius: 40px;
+   
+}
+.content a:hover{
+    background:rgb(26, 109, 60) ;
+}
+.lamp{
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 390px;
+}
+.torch {
+    width: 229px;
+}
+.light{
+    width: 729px;
+    margin-left: -259px;
+    margin-top: -5px;
+}
+.ON{
+    width: 5%;
+    position: absolute;
+    right: 830px;
+    top: 130px;
+    cursor: pointer;
+}
+.ON:hover{
+    filter: brightness(70%);
+}
